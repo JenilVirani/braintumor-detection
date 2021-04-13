@@ -5,7 +5,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def demo():
-    return "HELLO"
+
+    return "<html><body><h1>Hello World</h1></body></html>"
 
 
 
