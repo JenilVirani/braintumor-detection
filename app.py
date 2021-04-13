@@ -10,4 +10,4 @@ def demo():
 
 
 
-app.run(port=7890, threaded=True, debug=True)
+app.run()
